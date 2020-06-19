@@ -42,6 +42,9 @@ public class PlayerListener implements Listener {
         if(ChatPlugin.getInstance().getConfig().getBoolean("autoLink",false)) {
             Bukkit.dispatchCommand(e.getPlayer(), "link");
         }
+        
+        
+        
     }
     
     @EventHandler
